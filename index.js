@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 // 🔥 URI COMPLETA DE MONGODB ATLAS (CORREGIDA)
-const uri = "mongodb+srv://eaarongonzalez_db_user:bmwmrA39QiIfQG3k@cluster0.eqh40eb.mongodb.net/miDB?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "const uri = "mongodb+srv://edg_user:kyogre@cluster0.eqh40eb.mongodb.net/vulnerabilidades?retryWrites=true&w=majority&appName=Cluster0";";
 
 const client = new MongoClient(uri);
 
@@ -72,4 +72,5 @@ async function startServer() {
 }
 
 startServer();
+
 
